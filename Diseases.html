@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8"
-    <title>Menstrual Health Awareness</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Diseases - Menstrual Health Awareness</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
- 
+
 <header>
- <h1>Menstrual Health Awareness</h1>
+    <div class="logo-box">
+        <img src="logo.png.jpeg" alt="Logo">
+    </div>
+    <h1>Menstrual Health Awareness</h1>
 </header>
 
-    <nav>
-     <ul>
-      <li>index.htmlHome</a></li>
-      <li>diseases.htmlDiseases</a></li>
-      <li>symptoms.htmlSymptoms</a></li>
-      <li>treatment.htmlTreatment</a></li>
-      <li>contant.htmlContact</a></li>
-     </ul>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="diseases.html" class="active">Diseases</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a href="treatment.html">Treatment</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
-    <main>
-        <!--Hormonal Disorders Section-->>
-        <section>
-            <h2>Hormonal Disorders</h2>
-    
-            <article>
-                <h3>Disease Name</h3>
-            <p>Short description of the disease</p>
-            #Read More</a>
-            </article>
+<main>
+   <div class="disease-group">
+    <h2>Hormonal Disorders</h2>
+    <div class="disease-cards">
+        <div class="disease-card">
+            <div class="d-img">🧬</div>
+            <div class="d-name">Polycystic Ovary Syndrome (PCOS)</div>
+            <div class="d-desc">A hormonal disorder causing enlarged ovaries with small cysts.</div>
+            <a href="https://www.mayoclinic.org/diseases-conditions/pcos/symptoms-causes/syc-20353439" target="_blank">
+                <button class="btn-read">Read More</button>
+            </a>
+        </div>
+        <div class="disease-card">
+            <div class="d-img">⚗️</div>
+            <div class="d-name">Thyroid Disorders</div>
+            <div class="d-desc">Imbalances in thyroid hormones affecting menstrual cycles.</div>
+            <a href="https://www.mayoclinic.org/diseases-conditions/hypothyroidism/symptoms-causes/syc-20350284" target="_blank">
+                <button class="btn-read">Read More</button>
+            </a>
+        </div>
+    </div>
+</div>
 
-            <article>
-                <h3>Disease Name</h3>
-            <p>Short description of the disease</p>
-            #Read More</a>
-            </article>
-        </section>
+<div class="disease-group">
+    <h2>Pain-related Diseases</h2>
+    <div class="disease-cards">
+        <div class="disease-card">
+            <div class="d-img">🔴</div>
+            <div class="d-name">Endometriosis</div>
+            <div class="d-desc">Tissue similar to the uterine lining grows outside the uterus.</div>
+            <a href="https://www.mayoclinic.org/diseases-conditions/endometriosis/symptoms-causes/syc-20354656" target="_blank">
+                <button class="btn-read">Read More</button>
+            </a>
+        </div>
+        <div class="disease-card">
+            <div class="d-img">🌡️</div>
+            <div class="d-name">Dysmenorrhea</div>
+            <div class="d-desc">Severe menstrual cramps and pain during the menstrual cycle.</div>
+            <a href="https://www.mayoclinic.org/diseases-conditions/menstrual-cramps/symptoms-causes/syc-20374938" target="_blank">
+                <button class="btn-read">Read More</button>
+            </a>
+        </div>
+    </div>
+</div>
 
-             <!--Pain-Related Diseases Section-->>
-        <section>
-            <h2>Pain-Related Diseases</h2>
-    
-            <article>
-                <h3>Disease Name</h3>
-            <p>Short description of the disease</p>
-            #Read More</a>
-            </article>
-
-            <article>
-                <h3>Disease Name</h3>
-            <p>Short description of the disease</p>
-            #Read More</a>
-            </article>
-        </section>
-
-        <!--Bleeding Disorders Section-->>
-        <section>
-            <h2>Bleeding Disorders</h2>
-    
-            <article>
-                <h3>Disease Name</h3>
-            <p>Short description of the disease</p>
-            #Read More</a>
-            </article>
-
-    </main>
-    <footer>
-    <p>&copy;2026 Menstrual Health Awareness|Tlotso's Project</p>
-</footer>
-
-</body
-</html>
+<div class="disease-group">
+    <h2>Bleeding Disorder</h2>
+    <div class="disease-cards">
+        <div class="disease-card">
+            <div class="d-img">🩸</div>
+            <div class="d-name">Menorrhagia</div>
+            <div class="d-desc">Abnormally heavy or prolonged menstrual bleeding.</div>
+            <a href="https://www.mayoclinic.org/diseases-conditions/menorrhagia/symptoms-causes/syc-20352829" target="_blank">
+                <button class="btn-read">Read More</button>
+            </a>
+        </div>
+    </div>
+</div>
